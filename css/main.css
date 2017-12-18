@@ -1,1 +1,525 @@
 /* Los estilos de tu proyecto */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  padding: 0;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 0;
+  position: relative;
+  min-width: 320px;
+}
+
+.menu-nav {
+  background: #ffff;
+  border: none;
+  z-index: 5000;
+  height: 65px;
+  margin-bottom: 0;
+  padding-top: 1%;
+  position: relative;
+}
+
+.logo {
+  width: 60%;
+  position: relative;
+  bottom: 8px;
+}
+
+.items-menu {
+  bottom: 6px;
+  background: #ffff;
+  padding-left: 10px;
+}
+
+.navbar-rigth {
+  position: absolute;
+  right: 10%;
+}
+
+.logo-mobile {
+  width: 77%;
+  margin-left: 50%;
+}
+
+.btn-bars {
+  margin-left: 6.5%;
+}
+
+/*section*/
+.back-image {
+  background-image: url(../assets/images/taxi.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 0;
+}
+
+.empty-column {
+  height: 180px;
+  padding-right: 0;
+}
+
+.empty-column-two {
+  height: 300px;
+}
+
+.div-app {
+  background: #F7B617;
+  height: 300px;
+}
+
+.title-white {
+  padding-left: 8%;
+  padding-top: 9%;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.logo-white {
+  width: 25%;
+  margin-left: 4%;
+}
+
+.btn-white {
+  background: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 7%;
+  margin-top: 8%;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/*para pc*/
+.empty-column-pc-one {
+  height: 125px;
+  padding-right: 0;
+}
+
+.empty-column-pc-two {
+  height: 450px;
+}
+
+.div-app-pc {
+  background: #F7B617;
+  height: 450px;
+  position: relative;
+}
+
+.hr-pc {
+  background: #ffff;
+  left: 10%;
+  position: absolute;
+  top: 67%;
+  border: 1px solid #ffff;
+  width: 80%;
+  margin: auto;
+}
+
+.text-p-pc {
+  color: #ffff;
+  text-align: center;
+  padding: 20px 12%;
+  background: #F7B617;
+  position: absolute;
+  top: 61%;
+  left: 34%;
+  display: inline-block;
+
+}
+
+.sub-title-pc {
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.title-white-pc {
+  padding-left: 5%;
+  padding-top: 4%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.logo-white-pc {
+  width: 20%;
+  margin-left: 2%;
+}
+
+.btn-white-pc {
+  background: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-white-pc-two {
+  background: #fff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  position: absolute;
+  top: 77%;
+  left: 7%;
+}
+
+/*2da seccion*/
+.back-color {
+  background: #F7B617;
+  height: auto;
+  padding-top: 60px;
+}
+
+.border-white {
+  border: 1px solid #ffff;
+  height: 450px;
+  width: 84%;
+  margin: auto;
+  min-width: 315px;
+}
+
+.sub-title {
+  color: #ffff;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 5%;
+}
+
+.iphone {
+  background-image: url(../assets/images/iPhone6Plus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50%;
+  margin-left: 12%;
+  margin-top: 13%;
+}
+
+.h4-text {
+  color: #ffff;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+/*sm text iphone-section*/
+
+.text-iphone-section {
+  position: relative;
+  bottom: 50%;
+  width: 250px;
+  left: 51%;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.7rem;
+  text-align: left;
+  padding: 2px;
+}
+
+.title-app {
+  width: 300px;
+}
+
+/*3era sección*/
+.section-three {
+  position: relative;
+}
+
+.back-image-two {
+    background-image: url(../assets/images/conduce.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: right;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    filter: grayscale(20%) brightness(50%) contrast(120%);
+
+  }
+
+.btn-yellow {
+  background: #F7B617;
+  padding: 13px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 2%;
+}
+
+.text-absolute {
+  position: absolute;
+  z-index: 500;
+  left: 5%;
+  padding: 20% 6%;
+}
+
+.h5-text {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.text-bold {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.back-white {
+  background: #ffff;
+  padding-left: 7%;
+}
+
+/*texto para lg*/
+
+.text-for-lg {
+  position: absolute;
+  z-index: 500;
+  right: 0;
+  width: 500px;
+  padding: 35px 55px;
+  background: rgba(0,0,0,0.35);
+}
+
+/*4ta sección*/
+
+.section-four {
+  background: #F7B617;
+  height: auto;
+  position: relative;
+  top: 450px;
+  padding: 8% 10%;;
+}
+
+.input-map {
+  border: 1px solid #ffff;
+  background: #F7B617;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  margin-left: 20px;
+  padding: 15px 18px;
+  color: #ffff;
+  width: 80%;
+}
+
+.input-div {
+  margin: 35px 0;
+  margin-bottom: 40px;
+}
+
+::placeholder {
+  color: #ffff;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.icon-map {
+  font-size: 2.5rem;
+  color: #ffff;
+  opacity: 0.8
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+.div-map {
+  border: 1px solid #ffff;
+  width: 100%;
+  height: 430px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/*columnas*/
+
+.div-col-map {
+  margin-right: 40px;
+}
+
+/*5ta sección - footer*/
+
+.footer {
+  position: relative;
+}
+
+.footer-color {
+  background: #2B2B2B;
+  height: 620px;
+  width: 100%;
+  position: absolute;
+  top: 450px;
+  color: #ffff;
+}
+
+.menu-footer {
+  list-style: none;
+  margin: 25px 25px 0 0;
+  font-size: 1.9rem;
+  font-weight: 500;
+  opacity: 0.8;
+  position: relative;
+  right: 2%;
+}
+
+.logo-footer {
+  width: 23%;
+  max-width: 100px;
+  margin: 35px 0px 10px 25px ;
+}
+
+.line-white {
+  width: 98%;
+  margin-bottom: 45px;
+}
+
+.p-footer {
+  font-size: 1.9rem;
+  font-weight: 600;
+  opacity: 0.7;
+  padding-left: 2%;
+}
+
+.line-white-two {
+  width: 98%;
+  margin-bottom: 12px;
+  margin-top: 40px;
+}
+
+.icons-social {
+  padding: 3%;
+}
+
+.container-logo-social {
+  margin-bottom: 30%;
+  margin-left: 9%;
+}
+
+.container-logo-app {
+  padding-right: 2%;
+  padding-top: 10%;
+}
+
+.icon-app {
+  margin-bottom: 15%;
+  margin-left: 12%;
+  width: 75%;
+  max-width: 200px;
+}
+
+/*diw icons redes para sm-md-lg*/
+
+.dow-social-icons {
+  position: relative;
+  top: 340px;
+}
+
+/*Modales*/
+
+/*Modal inicio sesion*/
+
+.container-modal-pc {
+  position: absolute;
+  top: 10%;
+}
+
+.container-image {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+.user-passw {
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.btn-user {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.little-text {
+  position: relative;
+  right: 70%;
+}
+
+.input-space {
+  margin-bottom: 20px;
+}
+
+/*modal register*/
+.modal-register {
+  width: 100%;
+  padding: 25px;
+  background: #A9A9A9;
+}
+
+.btn-one-register {
+  font-weight: 600;
+  padding: 10px;
+  color: #ffff;
+  background: black;
+  margin-bottom: 13px;
+}
+
+.text-center-pc {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.input-space-pc {
+  margin-bottom: 14px;
+}
+
+.btn-register-two {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/*Modal conviertete en conductor*/
+
+.text-little-driver {
+  position: absolute;
+  left: 7%;
+  top: 32.5%;
+  width: 70%;
+}
+
+.text-little-driver-two {
+  position: absolute;
+  left: 7%;
+  bottom: 11.5%;
+  width: 70%;
+}
+
+.select-space {
+  margin-bottom: 50px;
+}
